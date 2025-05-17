@@ -1,18 +1,18 @@
 package beakjoon;
 
-public class Scanner {
+public class Num {
     public static void main(String[] args) {
 
-      int a;
-      int b;
+      double a;
+      double b;
 
       java.util.Scanner sc = new
               java.util.Scanner(System.in);
 
-       a = sc.nextInt();
-       b = sc.nextInt();
+       a = sc.nextDouble();
+       b = sc.nextDouble();
 
-        System.out.println(a + b);
+        System.out.println(a / b);
 
     }
 

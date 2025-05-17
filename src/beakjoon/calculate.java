@@ -1,10 +1,12 @@
 package beakjoon;
 
-public class 사칙연산 {
+import java.util.Scanner;
+
+public class calculate {
     public static void main(String[] args) {
 
-        int A = 0;
-        int B = 0;
+        int A ;
+        int B ;
 
 
         Scanner sc = new Scanner(System.in);

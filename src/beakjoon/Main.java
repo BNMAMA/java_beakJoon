@@ -1,15 +1,13 @@
 package beakjoon;
 
-import java.util.Scanner;
-
-public class Main {
+public class Scanner {
     public static void main(String[] args) {
 
       int a;
       int b;
 
-      Scanner sc = new
-      Scanner(System.in);
+      java.util.Scanner sc = new
+              java.util.Scanner(System.in);
 
        a = sc.nextInt();
        b = sc.nextInt();
